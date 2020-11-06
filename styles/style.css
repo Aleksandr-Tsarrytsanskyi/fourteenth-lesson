@@ -1,0 +1,30 @@
+#form {
+    width: 316px;
+    margin: 0 auto;
+}
+#form input {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    margin-top: 10px;
+    height: 30px;
+    width: 300px;
+}
+
+.invalid {
+    border: 1px solid red;
+}
+
+#form input[type="submit"] {
+    display: block;
+    color: #fff;
+    background-color: blue;
+    border: 1px solid #000;
+    width: 150px;
+    margin: -10px 0px ;
+}
+.error {
+    margin-bottom: 10px;
+    display: block;
+    color: red;
+}
